@@ -15,6 +15,6 @@ The tasks include
 
 `./scripts/preprocess.py` will automaticly generate preprocessed data for the four tasks given correct path for CAMR2.0 dataset and the tuple version of the dataset.
 
-We have also provided a processed version of data under `./preprocessed`, that you could directly use.
+We have also provided a processed version of data under `./preprocessed`, which you could directly use.
 
 ~ To Be Continued
