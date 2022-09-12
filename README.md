@@ -141,7 +141,7 @@ python train_relation_alignment_classification.py
 
 ## 📕Inference
 
-To reproduce our result, you need to first download all five models from [Google Drive](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) or [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) or train them yourself. After gaining the models, place the five models' folders under `./models/trained_models`. 
+To reproduce our result, you need to first download all five models from [Google Drive(currently unavailable)](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) or [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) or train them yourself. After gaining the models, place the five models' folders under `./models/trained_models`. 
 
 Run following script, you will get the model prediciton of TestA of CAMRP-2022 under `./results` folder. [Link](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/result/testA.with_r.with_extra.relation.literal.sync_with_no_r.with_func_words.camr_tuple)
 
