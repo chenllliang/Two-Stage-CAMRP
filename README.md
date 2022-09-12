@@ -127,7 +127,7 @@ python train_relation_alignment_classification.py
 
 # the trained models will be saved under /Two-Stage-CAMRP/models
 
-# we give the address of our trained model in /Two-Stage-CAMRP/models/trained_models/model_address.txt which you could download from Google Disk
+# we give the address of our trained model in /Two-Stage-CAMRP/models/trained_models/address.txt which you could download from Google Disk
 
 
 
