@@ -164,7 +164,7 @@ bash inference.sh ../../result/testA.surface ../../result/testA.norm_tag ../../r
 
 ## 📕Scoring with AlignSmatch
 
-The AlignSmatch tools are from [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR/tree/main/tools）
+The AlignSmatch tools are from [CAMRP 2022](https://github.com/GoThereGit/Chinese-AMR/tree/main/tools）
 
 ```
 cd ./Chinese-AMR/tools
