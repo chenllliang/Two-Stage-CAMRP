@@ -138,7 +138,11 @@ python train_relation_alignment_classification.py
 
 ## 📕Inference
 
-To reproduce our result, you need to first download all five models from Google Disk or train them yourself. You can also email to ''leo.liang.chen@outlook.com'' and I can send you the models.
+To reproduce our result, you need to first download all five models from [Google Drive](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) or train them yourself. You can also email to ''leo.liang.chen@outlook.com'' and I can send you the models.
+
+Place the five models' folders under `./models/trained_models`. 
+
+
 
 
 ```bash
@@ -161,6 +165,8 @@ bash inference.sh ../../result/testA.surface ../../result/testA.norm_tag ../../r
 
 
 ## 📕Scoring with AlignSmatch
+
+The AlignSmatch tools are from [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR/tree/main/tools）
 
 ```
 cd ./Chinese-AMR/tools
