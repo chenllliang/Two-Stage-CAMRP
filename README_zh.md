@@ -1,4 +1,4 @@
-# Two-Stage-Chinese-AMR-Parsing
+# 两阶段中文AMR解析方法
 
 **中文**|[English](https://github.com/chenllliang/Two-Stage-CAMRP)
 
