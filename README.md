@@ -23,7 +23,7 @@ you need to replace some files in transformers with our modified ones
 
 ### To Reproduce our Result
 
-To reproduce the result in the paper, you can directly jump to Inference section
+To reproduce the result in the paper, you can directly jump to Inference section (no need for dataset prepare, preprocess and train)
 
 
 ## 📕Dataset Prepare
