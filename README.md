@@ -1,4 +1,7 @@
 # Two-Stage-Chinese-AMR-Parsing
+
+English|[中文](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/README_zh.md)
+
 Source code for paper "A Two-Stage Graph-Based Method for Chinese AMR Parsing with Explicit Word Alignment" @ CAMRP-2022 & CCL-2022.
 
 Our system won the second place at [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR#%E8%AF%84%E6%B5%8B%E6%8E%92%E5%90%8D) evaluation held with CCL'2022 conference.
@@ -140,7 +143,7 @@ python train_relation_alignment_classification.py
 
 To reproduce our result, you need to first download all five models from [Google Drive](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) or [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) or train them yourself. After gaining the models, place the five models' folders under `./models/trained_models`. 
 
-
+Run following script, you will get the model prediciton of TestA of CAMRP-2022 under `./results` folder.
 
 
 ```bash
@@ -164,7 +167,7 @@ bash inference.sh ../../result/testA.surface ../../result/testA.norm_tag ../../r
 
 ## 📕Scoring with AlignSmatch
 
-The AlignSmatch tools are from [CAMRP 2022](https://github.com/GoThereGit/Chinese-AMR/tree/main/tools）
+The AlignSmatch tools are from [CAMRP 2022](https://github.com/GoThereGit/Chinese-AMR/tree/main/tools)
 
 ```
 cd ./Chinese-AMR/tools
