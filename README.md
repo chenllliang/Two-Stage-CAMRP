@@ -138,7 +138,7 @@ python train_relation_alignment_classification.py
 
 ## 📕Inference
 
-To reproduce our result, you need to first download all five models from [Google Drive](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) or train them yourself. You can also email to ''leo.liang.chen@outlook.com'' and I can send you the models. After gaining the models, place the five models' folders under `./models/trained_models`. 
+To reproduce our result, you need to first download all five models from [Google Drive](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) or [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) or train them yourself. After gaining the models, place the five models' folders under `./models/trained_models`. 
 
 
 
