@@ -93,10 +93,10 @@ The full preprocessed data (we have provided all of them) should look like below
 │   ├── dev.4level.relations.no_r
 │   ├── relation_alignment_classification
 │   │   ├── dev.4level.ralign.relations
-│   │   ├── dev..4levelralign.relations.literal
+│   │   ├── dev.4levelralign.relations.literal
 │   │   ├── dev.4level.ralign.relations_nodes
 │   │   ├── train.4level.ralign.relations
-│   │   ├── train..4levelralign.relations.literal
+│   │   ├── train.4levelralign.relations.literal
 │   │   └── train.4level.ralign.relations_nodes
 │   ├── train.4level.relations
 │   ├── train.4level.relations.literal
