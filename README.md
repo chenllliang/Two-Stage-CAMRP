@@ -4,7 +4,7 @@ Source code for paper "A Two-Stage Graph-Based Method for Chinese AMR Parsing wi
 Our system won the second place at [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR#%E8%AF%84%E6%B5%8B%E6%8E%92%E5%90%8D) evaluation held with CCL'2022 conference.
 
 
-## Preparations
+## 📕Preparations
 
 python: 3.7.11
 
@@ -24,7 +24,7 @@ you need to replace some files in transformers with our modified ones
 To reproduce the result in the paper, you can directly jump to Inference section
 
 
-## Dataset Prepare
+## 📕Dataset Prepare
 
 Before starting, you need collect the CAMR and CAMR tuple data from CAMRP-2022 and place them under `./datasets` as below:
 
@@ -47,7 +47,7 @@ The `./datasets/vocabs` is provided in this repo.
     └── relations.txt
 ```
 
-## Preprocess
+## 📕Preprocess
 
 First, we need to transform the original Chinese AMR Annotations into 4 different sub-tasks in the Two-Stage method. 
 
@@ -107,7 +107,7 @@ The full preprocessed data (we have provided all of them) should look like below
 5 directories, 33 files
 ```
 
-## Train
+## 📕Train
 
 ```bash
 
@@ -134,7 +134,7 @@ python train_relation_alignment_classification.py
 ```
 
 
-## Inference
+## 📕Inference
 
 To reproduce our result, you need to first download all five models from Google Disk or train them yourself. You can also email to ''leo.liang.chen@outlook.com'' and I can send you the models.
 
@@ -158,7 +158,7 @@ bash inference.sh ../../result/testA.surface ../../result/testA.norm_tag ../../r
 
 
 
-## Scoring with AlignSmatch
+## 📕Scoring with AlignSmatch
 
 ```
 cd ./Chinese-AMR/tools
@@ -170,6 +170,6 @@ python Align-smatch.py -lf ../data/test/test_A/max_len_testA.txt -f ../../result
 ```
 
 
-## Reference
+## 📕Reference
 
 Coming Soon ~
