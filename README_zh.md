@@ -139,7 +139,7 @@ python train_relation_alignment_classification.py
 
 ## 📕推理
 
-要复现我们的结果，你需要下载五个模型，从 [Google Drive](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) 或者 [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) 或者通过上面的脚本进行训练. 在得到五个模型后，将模型的文件夹们放到 `./models/trained_models` 中. 
+要复现我们的结果，你需要下载五个模型，从 [Google Drive(暂时不可用)](https://drive.google.com/drive/folders/153WJXLJ4xmo1vSnPU5R_G-b2_3v4ggGQ?usp=sharing) 或者 [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) 或者通过上面的脚本进行训练. 在得到五个模型后，将模型的文件夹们放到 `./models/trained_models` 中. 
 
 然后运行下面的命令，就可以得到最终在testA测试集上的[结果](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/result/testA.with_r.with_extra.relation.literal.sync_with_no_r.with_func_words.camr_tuple),结果保存在 `./results` 文件夹下。
 
