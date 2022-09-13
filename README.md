@@ -165,6 +165,23 @@ python train_relation_alignment_classification.py
 
 要复现我们的结果，你需要下载五个模型，从 [Google Drive](https://drive.google.com/drive/folders/1zkWlgyVYvoZTcXzZsC4GABFRKXHr9pUa?usp=sharing) 或者[北大网盘](https://disk.pku.edu.cn:443/link/B9082FEBBE8AF0210486969549C65D52) 或者 [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) 或者通过上面的脚本进行训练. 在得到五个模型后，将模型的文件夹们放到 `./models/trained_models` 中. 
 
+下载完后，数据结构应该如下
+```bash
+/Two-Stage-CAMRP/models
+└─trained_models
+    ├─non_aligned_tagging
+    │  └─checkpoint-1400
+    ├─normalization_tagging
+    │  └─checkpoint-650
+    ├─relation_align_cls
+    │  └─checkpoint-33000
+    ├─relation_cls
+    │  └─checkpoint-32400
+    └─surface_tagging
+        └─checkpoint-200
+```
+
+
 然后运行下面的命令，就可以得到最终在testA测试集上的[结果](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/result/testA.with_r.with_extra.relation.literal.sync_with_no_r.with_func_words.camr_tuple),结果保存在 `./results` 文件夹下。
 
 ```bash
