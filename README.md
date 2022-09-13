@@ -79,15 +79,16 @@ pip install -r requirement.txt # 确保你的torch和cuda版本匹配, 我们使
 
 ## 📕预处理
 
-首先，我们需要在两阶段方法中将中文AMR标注转换为4个不同的子任务。
+首先，我们需要在两阶段方法中将中文AMR标注转换为5个不同的子任务。
 
 任务包括
 1. Surface Tagging 
 2. Normalization Tagging
 3. Non-Aligned Concept Tagging
-4. Relation (*with Relation Alignment*) Classification 
+4. Relation Classification 
+5. Relation Aligment Classification
 
-`./scripts/preprocess.py` 将自动为四个任务生成预处理数据，你需要设置脚本中CAMR和CAMR元组数据的路径
+`./scripts/preprocess.py` 将自动为五个任务生成预处理数据，你需要设置脚本中CAMR和CAMR元组数据的路径
 
 （推荐）我们准备了处理好的数据在 `./preprocessed` 下，你可以直接使用他。
 
