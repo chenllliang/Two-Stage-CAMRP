@@ -6,7 +6,7 @@
 
 我们的系统 "PKU@CAMRP-2022" 在 [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR#%E8%AF%84%E6%B5%8B%E6%8E%92%E5%90%8D) 评测中赢得了第二名
 
-欢迎issue有关结果复现过程中的任何问题 ~
+欢迎issue有关结果复现过程中的任何问题 ~~
 
 
 
