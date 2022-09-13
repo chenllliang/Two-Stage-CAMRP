@@ -9,6 +9,29 @@
 欢迎issue有关结果复现过程中的任何问题 ~
 
 
+
+<br>
+
+<div align=center>
+<b>中文AMR解析的一个例子</b>
+<br>
+
+<img width="800" src="./camr.PNG"/>
+
+</div>
+
+<br><br>
+
+
+<div align=center>
+<b>两阶段模型示意图</b>
+<br>
+<img width="800" src="./model.PNG"/> 
+
+
+</div>
+
+
 ## 📕准备工作
 
 python: 3.7.11
