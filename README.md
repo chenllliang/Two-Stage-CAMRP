@@ -9,6 +9,31 @@ Our system won the second place at [CAMRP-2022](https://github.com/GoThereGit/Ch
 Please feel free to ask whenever you meet problems during reproduing our results.
 
 
+
+<br>
+
+<div align=center>
+<b>An example of Chinese AMR Parsing</b>
+<br>
+
+<img width="800" src="./camr.PNG"/>
+
+</div>
+
+<br><br>
+
+
+<div align=center>
+<b>Two-Stage Model Illustration</b>
+<br>
+<img width="800" src="./model.PNG"/> 
+
+
+</div>
+
+
+
+
 ## 📕Preparations
 
 python: 3.7.11
