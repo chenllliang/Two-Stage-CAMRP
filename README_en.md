@@ -1,6 +1,6 @@
 # Two-Stage-Chinese-AMR-Parsing
 
-English | **[中文](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/README_zh.md)**
+English | **[中文](https://github.com/chenllliang/Two-Stage-CAMRP)**
 
 Source code for paper "A Two-Stage Graph-Based Method for Chinese AMR Parsing with Explicit Word Alignment" @ CAMRP-2022 & CCL-2022.
 
