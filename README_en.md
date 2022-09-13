@@ -164,6 +164,24 @@ python train_relation_alignment_classification.py
 
 To reproduce our result, you need to first download all five models from [Google Drive](https://drive.google.com/drive/folders/1zkWlgyVYvoZTcXzZsC4GABFRKXHr9pUa?usp=sharing) or [PKU Drive](https://disk.pku.edu.cn:443/link/B9082FEBBE8AF0210486969549C65D52) or [阿里云盘](https://www.aliyundrive.com/s/ad1VTLhUBgy) or train them yourself. After gaining the models, place the five models' folders under `./models/trained_models`. 
 
+After downloading, the data sturcture should be like:
+
+```bash
+/Two-Stage-CAMRP/models
+└─trained_models
+    ├─non_aligned_tagging
+    │  └─checkpoint-1400
+    ├─normalization_tagging
+    │  └─checkpoint-650
+    ├─relation_align_cls
+    │  └─checkpoint-33000
+    ├─relation_cls
+    │  └─checkpoint-32400
+    └─surface_tagging
+        └─checkpoint-200
+```
+
+
 Run following script, you will get the model prediciton of TestA of CAMRP-2022 under `./results` folder. [Link](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/result/testA.with_r.with_extra.relation.literal.sync_with_no_r.with_func_words.camr_tuple)
 
 
