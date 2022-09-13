@@ -4,7 +4,7 @@ English | **[中文](https://github.com/chenllliang/Two-Stage-CAMRP)**
 
 Source code for paper "A Two-Stage Graph-Based Method for Chinese AMR Parsing with Explicit Word Alignment" @ CAMRP-2022 & CCL-2022.
 
-Our system won the second place at [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR#%E8%AF%84%E6%B5%8B%E6%8E%92%E5%90%8D) evaluation held with CCL'2022 conference.
+Our system “PKU@CAMRP-2022” won the second place at [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR#%E8%AF%84%E6%B5%8B%E6%8E%92%E5%90%8D) evaluation held with CCL-2022 conference.
 
 Please feel free to ask whenever you meet problems during reproduing our results.
 
@@ -51,7 +51,7 @@ you need to replace some files in transformers with our modified ones
 
 ### To Reproduce our Result
 
-To reproduce the result in the paper, you can directly jump to Inference section (no need for dataset prepare, preprocess and train)
+To reproduce the result in the paper, you can directly jump to [Inference](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/README_en.md#inference) section (no need for dataset prepare, preprocess and train)
 
 
 ## 📕Dataset Prepare
@@ -79,17 +79,18 @@ The `./datasets/vocabs` is provided in this repo.
 
 ## 📕Preprocess
 
-First, we need to transform the original Chinese AMR Annotations into 4 different sub-tasks in the Two-Stage method. 
+First, we need to transform the original Chinese AMR Annotations into 5 different sub-tasks in the Two-Stage method. 
 
 The tasks include
 1. Surface Tagging 
 2. Normalization Tagging
 3. Non-Aligned Concept Tagging
-4. Relation (*with Relation Alignment*) Classification 
+4. Relation Classification 
+5. Relation Alignment Classification
 
-`./scripts/preprocess.py` will automaticly generate preprocessed data for the four tasks given correct path for CAMR2.0 dataset and the tuple version of the dataset.
+`./scripts/preprocess.py` will automaticly generate preprocessed data for the five tasks given correct path for CAMR2.0 dataset and the tuple version of the dataset.
 
-We also provide a processed version of data under `./preprocessed`, that you could directly use.
+(Recommended) We also provide a processed version of data under `./preprocessed`, that you could directly use.
 
 The full preprocessed data (we have provided all of them) should look like belows:
 
@@ -156,11 +157,6 @@ python train_relation_classification.py
 python train_relation_alignment_classification.py
 
 # the trained models will be saved under /Two-Stage-CAMRP/models
-
-# we give the address of our trained model in /Two-Stage-CAMRP/models/trained_models/address.txt which you could download from Google Disk
-
-
-
 ```
 
 
