@@ -4,6 +4,8 @@ English | **[中文](https://github.com/chenllliang/Two-Stage-CAMRP)**
 
 Source code for paper "A Two-Stage Graph-Based Method for Chinese AMR Parsing with Explicit Word Alignment" @ CAMRP-2022 & CCL-2022.
 
+The draft of the paper is [Draft_TCAMRP.pdf](https://github.com/PKUnlp-icler/Two-Stage-CAMRP/blob/main/Draft_TCAMRP.pdf) under root dir.
+
 Our system “PKU@CAMRP-2022” won the second place at [CAMRP-2022](https://github.com/GoThereGit/Chinese-AMR#%E8%AF%84%E6%B5%8B%E6%8E%92%E5%90%8D) evaluation held with CCL-2022 conference.
 
 Please feel free to ask whenever you meet problems during reproduing our results.
