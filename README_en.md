@@ -48,6 +48,7 @@ pip install -r requirement.txt # make sure you have correct cuda version for tor
 you need to replace some files in transformers with our modified ones
 - replace `/miniconda3/envs/camrp/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py` with `./src/modeling_bert.py`
 - replace `/miniconda3/envs/camrp/lib/python3.7/site-packages/transformers/modeling_outputs.py` with `./src/modeling_outputs.py`
+- replace `/miniconda3/envs/camrp/lib/python3.7/site-packages/transformers/trainer.py` with `./src/trainer.py`
 
 
 ### To Reproduce our Result
