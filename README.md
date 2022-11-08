@@ -1,3 +1,6 @@
+这个repo不再进行维护，请关注这个最新的地址 https://github.com/PKUnlp-icler/Two-Stage-CAMRP
+
+
 # 两阶段中文AMR解析方法
 
 **中文** | [English](https://github.com/chenllliang/Two-Stage-CAMRP/blob/main/README_en.md)
