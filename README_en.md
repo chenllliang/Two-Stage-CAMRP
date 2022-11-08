@@ -1,3 +1,6 @@
+This repo is not maintained anymore. Please go to https://github.com/PKUnlp-icler/Two-Stage-CAMRP
+
+
 # Two-Stage-Chinese-AMR-Parsing
 
 English | **[中文](https://github.com/chenllliang/Two-Stage-CAMRP)**
